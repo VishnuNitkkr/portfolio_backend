@@ -30,7 +30,7 @@ const messageSchema= new mongoose.Schema({
   message:{
     type:String,
     required:true,
-    minLength:10,
+    minLength:3,
   }
 
 },{timestamps:true})
